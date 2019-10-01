@@ -1,0 +1,38 @@
+div#root{
+    margin: 40px 200px;
+}
+.card{
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+    margin-right: 50px;
+    position: relative;
+    margin-bottom: 60px;
+}
+.card-image{
+    width:200px;
+    height: 250px
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
